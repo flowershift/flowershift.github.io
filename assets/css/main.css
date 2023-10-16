@@ -2096,15 +2096,16 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 3px;
+		border-radius: 0px;
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 3px;
+			border-radius: 0px;
 			display: block;
+			
 		}
 
 		.image.left {
@@ -2123,9 +2124,9 @@ input, select, textarea {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
-				width: 100%;
-			}
+		.image.left img, .image.right img {
+			width: 100%;
+		}
 
 		.image.fit {
 			display: block;
@@ -2133,9 +2134,9 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			.image.fit img {
-				width: 100%;
-			}
+		.image.fit img {
+			width: 100%;
+		}
 
 /* List */
 
@@ -3892,4 +3893,13 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #ffffff;
+	}
+
+
+	.page-container {
+		margin-top:0px;
+		margin: 50px; /* Adjust the margin size as needed */
+		max-width: 1200px; /* Set the maximum width of the container */
+		margin-left: auto;
+		margin-right: auto;
 	}
